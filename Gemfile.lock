@@ -63,7 +63,9 @@ GEM
     figaro (0.6.3)
       bundler (~> 1.0)
       rails (>= 3, < 5)
+    geocoder (1.1.6)
     hike (1.2.1)
+    holidays (1.0.5)
     i18n (0.6.1)
     journey (1.0.4)
     jquery-rails (2.2.1)
@@ -170,6 +172,8 @@ DEPENDENCIES
   email_spec (>= 1.4.0)
   factory_girl_rails (>= 4.2.0)
   figaro (>= 0.6.3)
+  geocoder
+  holidays
   jquery-rails
   mongoid (>= 3.1.2)
   mongoid-rspec (>= 1.7.0)

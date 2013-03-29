@@ -1,2 +1,4 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div>
+<h1>The next holiday in <%= request.location.country %> is:</h1>
+</div>
+<div class="holiday"><%= @next_holiday_name %> on <%= @next_holiday_week_day %>, <%= @next_holiday_month %> <%= @next_holiday_month_day %>, <%= @current_year %> </div>

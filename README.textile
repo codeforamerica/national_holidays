@@ -1,6 +1,6 @@
 h1. National Holidays
 
-When is the next national holiday in your country? Use this app to find out.
+When is the next national holiday in your country? Find out here: "http://national-holidays.herokuapp.com/":http://national-holidays.herokuapp.com/
 A Labs Friday project by "@monfresh":http://github.com/monfresh
 
 h2. Development Details

@@ -1,6 +1,7 @@
 #National Holidays
 
 When is the next national holiday in your country? Find out here: [http://national-holidays.herokuapp.com/](http://national-holidays.herokuapp.com/)
+
 A Labs Friday project by [@monfresh](http://github.com/monfresh)
 
 ##Development Details
@@ -19,6 +20,8 @@ To install:
 To run locally:
 
     unicorn
+
+Then visit [http://localhost:8080](http://localhost:8080)
 
 The app uses the [geocoder](https://github.com/alexreisner/geocoder) gem to detect the visitor's country based on their IP address. This detection does not work when running the app on localhost, so if you want to test holidays for a specific country, you should replace `country_code.to_sym` on line 10 of [home_controller.rb](https://github.com/codeforamerica/national_holidays/blob/master/app/controllers/home_controller.rb) with the symbol representation of the country's 2-character code, such as `:fr`. 
 
